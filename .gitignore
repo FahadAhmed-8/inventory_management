@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+*.egg-info/
+.pytest_cache/
+.ipynb_checkpoints/
+.mypy_cache/
+.pytest_cache/
+.vscode/
+
+# Environment variables
+.env
+
+# Generated data and models (can be regenerated from scripts)
+backend/data/processed/retail_inventory_forecast_processed.csv
+backend/models/lstm_model.h5
+backend/models/prophet_model.joblib
+backend/models/xgboost_model.joblib
+backend/models/scaler_X.joblib
+backend/models/scaler_y.joblib
+backend/models/ensemble_weights.json
+
+# Node.js / React
+node_modules/
+build/
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS generated files
+.DS_Store
+.Trash
+Thumbs.db
